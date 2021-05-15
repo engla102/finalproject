@@ -1,0 +1,179 @@
+.frame {
+    /*height: 1024px;*/
+    /*width: 1920px;*/
+}
+
+
+.logo {
+    font-family: shuriken-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.vibe {
+    width: 1044px;
+    height: 113px;
+    font-size: 113px;
+    /*border: red 1px solid;*/
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start {
+    position: fixed;
+    left: 50%;
+    top:68%;
+    font-size: 55px;
+    transform: translate(-50%, -50%);
+    /*border: red 1px solid;*/
+    text-align: center;
+    margin: 0;
+
+}
+
+.start a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.start a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.start a:active {
+    text-decoration: none;
+}
+
+.start a:hover {
+    text-decoration: none;
+    color: #a25d5d;
+}
+
+.days {
+    font-family: shuriken-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mon {
+    position: fixed;
+    width: 922px;
+    height: 135px;
+    font-size: 135px;
+    /*border: red 1px solid;*/
+}
+
+.tue {
+    position: fixed;
+    width: 376px;
+    height: 54px ;
+    transform: rotate(90deg);
+    top: 25%;
+    left:73%;
+    margin: 0;
+    font-size: 54px;
+    /*border: red 1px solid;*/
+}
+
+.wed {
+    position: fixed;
+    width: 849px;
+    height: 87px ;
+    top: 23%;
+    left: 37%;
+    font-size: 87px;
+    /*border: red 1px solid;*/
+
+}
+
+.thu {
+    position: fixed;
+    width: 330px;
+    height: 41px ;
+    transform: rotate(270deg);
+    top: 33%;
+    left:1%;
+    margin: 0;
+    font-size: 41px;
+    /*border: red 1px solid;*/
+}
+
+.fri {
+    position: fixed;
+    width: 415px;
+    height: 73px ;
+    top: 61%;
+    left: 2%;
+    font-size: 73px;
+    /*border: red 1px solid;*/
+}
+
+.sat {
+    position: fixed;
+    width: 1507px;
+    height: 193px ;
+    top: 72%;
+    left: 2%;
+    font-size: 193px;
+    /*border: red 1px solid;*/
+}
+
+.sun {
+    position: fixed;
+    width: 837px;
+    height: 138px ;
+    font-size: 138px;
+    transform: rotate(270deg);
+    top: 30%;
+    left:63%;
+    margin: 0;
+    /*border: red 1px solid;*/
+}
+
+
+.days a:link {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.days a:visited {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.days a:active {
+    text-decoration: none;
+}
+
+.mon a:hover {
+    color: #92336c;
+}
+
+.tue a:hover {
+    color: #724a79;
+}
+
+.wed a:hover {
+    color: #29518d;
+}
+
+.thu a:hover {
+    color: #007188;
+}
+
+.fri a:hover {
+    color: #1b6c6a;
+}
+
+.sat a:hover {
+    color: #5d865e;
+}
+
+.sun a:hover {
+    color: #818c2d;
+}

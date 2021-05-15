@@ -1,0 +1,126 @@
+.menu {
+    font-family: shuriken-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    position: absolute;
+    top: 5%;
+    padding-left: 50px;
+}
+
+.box {
+    width: 800px;
+    height: 400px;
+    background-color: #a25d5d;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+p{
+    font-family: grover,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 5%;
+    color: white;
+}
+
+
+.next {
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    background: url("../images/next.png") no-repeat;
+    top:20px;
+    /*border: 1px solid blue;*/
+
+}
+
+@keyframes next{
+    0%,100% {top:20px}
+    50% {top:50px}
+}
+
+.hov:hover .next{
+    animation: next 2s infinite;
+}
+
+.hov{
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: 64%;
+    top:70%;
+    /*border: #29518d solid 1px;*/
+}
+
+.tue {
+    padding-top: 10px;
+}
+
+.wed {
+    padding-top: 10px;
+}
+
+.thu {
+    padding-top: 10px;
+}
+
+.fri {
+    padding-top: 10px;
+}
+
+.sat {
+    padding-top: 10px;
+}
+
+.sun {
+    padding-top: 10px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.mon a:hover {
+    color: #92336c;
+}
+
+.tue a:hover {
+    color: #724a79;
+}
+
+.wed a:hover {
+    color: #29518d;
+}
+
+.thu a:hover {
+    color: #007188;
+}
+
+.fri a:hover {
+    color: #1b6c6a;
+}
+
+.sat a:hover {
+    color: #5d865e;
+}
+
+.sun a:hover {
+    color: #818c2d;
+}
